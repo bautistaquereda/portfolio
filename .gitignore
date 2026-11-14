@@ -1,0 +1,14 @@
+# Private / working files: never publish
+cv-editado/
+*.docx
+~$*
+
+# Local tooling
+.claude/
+.vscode/
+.idea/
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store

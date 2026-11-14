@@ -1,0 +1,5 @@
+# Allow everything to be crawled.
+User-agent: *
+Allow: /
+
+Sitemap: https://bautistaquereda.dev/sitemap.xml

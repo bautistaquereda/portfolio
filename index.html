@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bautista Quereda | Back-end Developer · Java, Spring Boot</title>
+  <meta name="description" content="Bautista Quereda, Back-end (backend) Developer in Buenos Aires, Argentina. REST APIs and microservices with Java, Spring Boot and Node.js. English C2." />
+  <meta name="author" content="Bautista Quereda" />
+  <meta name="robots" content="index, follow" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#efeee9" media="(prefers-color-scheme: light)" />
+
+  <!-- Link previews (LinkedIn, WhatsApp, Slack, X...) -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:site_name" content="Bautista Quereda" />
+  <meta property="og:title" content="Bautista Quereda | Back-end Developer · Java, Spring Boot" />
+  <meta property="og:description" content="Bautista Quereda, Back-end (backend) Developer in Buenos Aires, Argentina. REST APIs and microservices with Java, Spring Boot and Node.js. English C2." />
+  <meta property="og:image" content="https://bautistaquereda.dev/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Bautista Quereda, Back-end Developer: ASCII portrait on a retro terminal" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="es_AR" />
+  <meta property="profile:first_name" content="Bautista" />
+  <meta property="profile:last_name" content="Quereda" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bautista Quereda | Back-end Developer · Java, Spring Boot" />
+  <meta name="twitter:description" content="Bautista Quereda, Back-end (backend) Developer in Buenos Aires, Argentina. REST APIs and microservices with Java, Spring Boot and Node.js. English C2." />
+  <meta name="twitter:image" content="https://bautistaquereda.dev/og-image.png" />
+
+  <!-- Canonical URL + language versions (Spanish lives at /?lang=es) -->
+  <link rel="canonical" href="https://bautistaquereda.dev/" id="canonical" />
+  <link rel="alternate" hreflang="en" href="https://bautistaquereda.dev/" />
+  <link rel="alternate" hreflang="es" href="https://bautistaquereda.dev/?lang=es" />
+  <link rel="alternate" hreflang="x-default" href="https://bautistaquereda.dev/" />
+  <meta property="og:url" content="https://bautistaquereda.dev/" id="og-url" />
+
+  <!-- Structured data: tells Google who this page is about -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Bautista Quereda",
+  "givenName": "Bautista",
+  "familyName": "Quereda",
+  "jobTitle": "Back-end Developer",
+  "url": "https://bautistaquereda.dev/",
+  "image": "https://bautistaquereda.dev/og-image.png",
+  "description": "Bautista Quereda, Back-end (backend) Developer in Buenos Aires, Argentina. REST APIs and microservices with Java, Spring Boot and Node.js. English C2.",
+  "email": "mailto:bautistaquereda@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Buenos Aires",
+    "addressCountry": "AR"
+  },
+  "sameAs": [
+    "https://github.com/bautistaquereda",
+    "https://www.linkedin.com/in/bautistaquereda/"
+  ],
+  "knowsAbout": [
+    "Back-end development",
+    "Java",
+    "Spring Boot",
+    "Spring Security",
+    "Spring Cloud",
+    "Microservices",
+    "REST APIs",
+    "Node.js",
+    "Go",
+    "MySQL",
+    "SQL",
+    "MongoDB",
+    "RabbitMQ",
+    "OAuth 2.0",
+    "Keycloak",
+    "AWS",
+    "Kubernetes",
+    "Jenkins",
+    "CI/CD",
+    "Git",
+    "Scrum",
+    "Software testing",
+    "JavaScript",
+    "React"
+  ],
+  "knowsLanguage": [
+    {
+      "@type": "Language",
+      "name": "Spanish",
+      "alternateName": "es"
+    },
+    {
+      "@type": "Language",
+      "name": "English",
+      "alternateName": "en"
+    }
+  ],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "name": "EF SET English Certificate: C2 Proficient (74/100)",
+    "credentialCategory": "certificate",
+    "recognizedBy": {
+      "@type": "Organization",
+      "name": "EF Education First"
+    },
+    "url": "https://cert.efset.org/es/pVyabd"
+  }
+}
+  </script>
+  <script>
+    // Apply saved theme/language before paint (avoids a flash)
+    (function () {
+      var theme, lang;
+      try { theme = localStorage.getItem("theme"); lang = localStorage.getItem("lang"); } catch (e) {}
+      var urlLang = new URLSearchParams(location.search).get("lang");
+      if (urlLang === "es" || urlLang === "en") lang = urlLang;
+      if (urlLang === "es") {
+        document.getElementById("canonical").href = "https://bautistaquereda.dev/?lang=es";
+        document.getElementById("og-url").content = "https://bautistaquereda.dev/?lang=es";
+      }
+      if (!theme) theme = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.lang = lang || "en";
+    })();
+  </script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Space+Mono:wght@400;700&family=VT323&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__logo"><span class="tilde">~</span>/bau<span class="cursor">_</span></a>
+      <nav class="nav__links">
+        <a href="#about" data-i18n="nav.about">[about]</a>
+        <a href="#projects" data-i18n="nav.projects">[projects]</a>
+        <a href="#contact" data-i18n="nav.contact">[contact]</a>
+      </nav>
+      <div class="nav__toggles">
+        <button type="button" class="toggle" id="theme-toggle" aria-label="Toggle day/night mode">
+          <span data-value="light">&#9728;</span><span data-value="dark">&#9790;</span>
+        </button>
+        <button type="button" class="toggle" id="lang-toggle" aria-label="Switch language">
+          <span data-value="en">EN</span><span data-value="es">ES</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero container">
+      <div class="hero__text">
+        <p class="prompt">bautistaquereda@portfolio:<span class="tilde">~</span>$ <span>whoami</span></p>
+        <h1 class="hero__name">Bautista Quereda</h1>
+        <h2 class="hero__role" data-i18n-html="hero.role">&gt; Back-end Developer <span>· Building REST APIs and microservices with Java, Spring Boot and Node.js.</span></h2>
+        <p class="hero__meta" data-i18n="hero.meta">Buenos Aires, Argentina · 24 years old · English C2</p>
+        <p class="hero__clock" aria-live="off">$ date <span class="hero__clock-arrow">&rarr;</span> <span data-i18n="hero.clockLabel">local time</span> <time id="clock-time">--:--</time> <span class="hero__clock-tz">(UTC&minus;3)</span><span id="clock-diff"></span></p>
+        <div class="hero__cta">
+          <!-- ✏️ CVs: cv/Bautista-Quereda-BackendDev-CV-ENG.pdf / -ESP.pdf -->
+          <a class="btn btn--cmd btn--cv" data-cv-lang="en" href="cv/Bautista-Quereda-BackendDev-CV-ENG.pdf" download type="application/pdf" data-i18n-title="hero.cvTitleEn">$ wget cv_en.pdf</a>
+          <a class="btn btn--cmd btn--cv" data-cv-lang="es" href="cv/Bautista-Quereda-BackendDev-CV-ESP.pdf" download type="application/pdf" data-i18n-title="hero.cvTitleEs">$ wget cv_es.pdf</a>
+        </div>
+      </div>
+
+      <!-- Avatar: night version (avatar-ascii.txt) / day version (avatar-ascii-light.txt) -->
+
+      <pre class="ascii-art ascii-art--dark" aria-hidden="true">                                        ........     ..'.
+`~~~~~~~~~~~~~~~'                     ..        ....     ''                             `~~~~~~~~~~~~~~~`
+~@@@@@@@@@@@@@@@,                   '                      '                            -@@@@@@@@@@@@@@@-
+~@@@@@@@@@@@@@@@,          .'     .                         '.........                  -@@@@@@@@@@@@@@@-
+~@@@@@@@@@@@@@@@,          ' .'...                                    ...               -@@@@@@@@@@@@@@@-
+~@@@@@@@@:::::::.           '                                            ..             .::::::,@@@@@@@@-
+~@@@@@@@@                    ..                                           ..                   .@@@@@@@@-
+~@@@@@@@@                    ..                                             '                  .@@@@@@@@-
+~@@@@@@@@                  '.                                               ..                 .@@@@@@@@-
+~@@@@@@@@                 '.                                                 '                 .@@@@@@@@-
+~@@@@@@@@                '.                          ''                      `                 .@@@@@@@@-
+~@@@@@@@@                `           -.              `@#~.                   '                 .@@@@@@@@-
+~@@@@@@@@               '           -@,       `+      ~@@@,                   '                .@@@@@@@@-
+~@@@@@@@@               `         ,#@*       -@@o'     :o@@:                  '.  ..           .@@@@@@@@-
+~@@@@@@@@              ..       '#@=`      ,#@@@@@o~,::,~%@~   ~                .. '           .@@@@@@@@-
+~@@@@@@@@              '       .%@@@@#*+*#@@@@@@@@@@@@@@%%= '~%:                 .'            .@@@@@@@@-
+~@@@@@@@@         '....        -@@@@+    '`,~+%@@o~:`.    .o@%:               .`.              .@@@@@@@@-
+~@@@@@@@@          .           -@@@@@@#*+=~-,:~%@*~~~=+o#@@@@~`,==    .         '              .@@@@@@@@-
+~@@@@@@@@            ...      `-@@@@@@@@@@@@@@=`@@@@@@@%%%@@@@@@%:=o%@@@#~.     '              .@@@@@@@@-
+~@@@@@@@@              `'=#%* #@@@@@o-`.   `~@`~@@@@=`     '-#@@@@@@@@@@@@#'    ..             .@@@@@@@@-
+~@@@@@@@@             ' o@@@# #@@@@o`~=   ***% o@@@@++%`  =+-~@@@@@@@@@@@@@=     .             .@@@@@@@@-
+~@@@@@@@@             `.@@@@% #@@@@@@@@*~o@@@o @@@@@@@@@*#@@@@@@@@@@@@@@@@@-    '              .@@@@@@@@-
+~@@@@@@@@             '.*@@@@.*@@@@@@@@@@@@@@='@@@@@@@@@@@@@@@@@@@@@@@@@@@*.    `              .@@@@@@@@-
+~@@@@@@@@              ''*@@@:~@@@@@@@@@@@@@@,,@@@@@@@@@@@@@@@@@@@@@@@@@#-      '              .@@@@@@@@-
+~@@@@@@@@               .':*@+'@@@@@@@@@@@@@@`=@@@@@@@@@@@@@@@@@@@@@@#=`         '             .@@@@@@@@-
+~@@@@@@@@                  .-='+@@@@@@@@@@@@@'*@%@@@@@@@@@@@@@@@@@@@-             ....'        .@@@@@@@@-
+~@@@@@@@@                     ''@@@@@@@@@@@@@-,,-=@@@@@@@@@@@@@@@@@#                ..         .@@@@@@@@-
+~@@@@@@@@                      `:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%'          `.....           .@@@@@@@@-
+~@@@@@@@@                       '-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:           `                .@@@@@@@@-
+~@@@@@@@@-------'               .',@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%:      .     '         '-------@@@@@@@@-
+~@@@@@@@@@@@@@@@,                 '`#@@@@@@@@@@-,,,=@@@@@@@@@@@o'      .:   .'          -@@@@@@@@@@@@@@@-
+~@@@@@@@@@@@@@@@,                  ''~@@@@@@@@@@@@@@@@@@@@@@@%-     .. ' ...            -@@@@@@@@@@@@@@@-
+~@@@@@@@@@@@@@@@,                    .`~%@@@@@@@@@@@@@@@@@@#-.    ..   ..               -@@@@@@@@@@@@@@@-
+',,,,,,,,,,,,,,,.                      '',*@@@@@@@@@@@@@#=`.`'.   .'                    ',,,,,,,,,,,,,,,'
+                                         ..'`:~==++=~-:''''    .....
+                                             ....'''.'.</pre>
+
+      <pre class="ascii-art ascii-art--light" aria-hidden="true">                                        ........     ..'.
+`@@@@@@@@@@@@@@@'                     ..@@@@@@@@....  @@@''                             `@@@@@@@@@@@@@@@`
+@@             @,                   ' @@@@@@@@@@@@@@ @@@@@@'                            @@             @@
+@              @,          .'     .@@@@@@@@@@@@@@@@@@@@@@@@@'.........                  @               @
+@              @,          '@.'...@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@...               @@    @@@       @
+@       @@@@@@@@.          @'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@..             .@@@@@@,@       @
+@       @                   @..@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@..                   .@       @
+@       @                  @@..@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'@                 .@       @
+@       @                 @'.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@..                 .@       @
+@       @                @'.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'                 .@       @
+@       @                '.@@@@@@@@@@@@@@@@@@@@@@@@@@''@@@@@@@@@@@@@@@@@@@@@@`                 .@       @
+@       @               @`@@@@@@@@@@@@.@@@@@@@@@@@@@@`@@@.@@@@@@@@@@@@@@@@@@@'@                .@       @
+@       @               '@@@@@@@@@@@@@,@@@@@@@`@@@@@@@@@@@,@@@@@@@@@@@@@@@@@@@'@               .@       @
+@       @              @`@@@@@@@@@,@@@@@@@@@@@@@@'@@@@@@,@@@@@@@@@@@@@@@@@@@@@'.@ ..           .@       @
+@       @              ..@@@@@@@'@@@`@@@@@@,@@  @@@@,@@@% @@@@@@@@@@@@@@@@@@@@@@..@'           .@       @
+@       @             @'@@@@@@@.@@ @@@@@@@@@@      @@@    @@'@@@@@@@@@@@@@@@@@@@@.'            .@       @
+@       @         '....@@@@@@@@@@   ~@@@@@@@%~   ,%%@@@@@@@@@@@@@@@@@@@@@@@@@@.`.@             .@       @
+@       @          .@@@@@@@@@@@@       -~=%#@%%  -%%%=~,     @`,@@@@@@.@@@@@@@@@'              .@       @
+@       @           @...@@@@@@`@              =@             @@@@@@@@@@@@@.@@@@@'@             .@       @
+@       @            @@`'@@@@@@@    ,#@@@@@@% @%    =@@@@@@@#            @@'@@@@..             .@       @
+@       @             '@@@  @@@    ,@%=@@@--- @,    ~~ @@@=~#%            @@@@@@@.             .@       @
+@       @             `.@   @@@        -%,   ,@         -                 @@@@@@'@             .@       @
+@       @             '.@@  @.@              =@                          @@.@@@@`              .@       @
+@       @              ''@@ @@@@             @@                       @@@@@@@@@@'@             .@       @
+@       @               .'@@@@'@             @=                     @@@`@@@@@@@@@'@            .@       @
+@       @                  .@@'@@            @-                    @@@@@@@@@@@@@@@....'        .@       @
+@       @                    @''@            #@@#=                @@@@@@@@@@@@@@@@@@..         .@       @
+@       @                     @`@@                                @'@@@@@@@@@@`.....           .@       @
+@       @                      @'@@@                             @@@@@@@@@@@@@`@               .@       @
+@       @@@@@@@@'               .',@@                          @@@@@@@@@.@@@@@'         '@@@@@@@@       @
+@              @,                 '`@@         #@@@=          @@'@@@@@@.@@@@.'          @@              @
+@              @,                  ''@@@                    @@@@@@@@..@'@...            @               @
+@@@@@@@@@@@@@@@@,                    .`@@@@              @@@@.@@@@..@@ ..               @@@@@@@@@@@@@@@@@
+',,,,,,,,,,,,,,,.                      '',@@@@        @@@@`.`'.@@@.'                    ',,,,,,,,,,,,,,,'
+                                         ..'`@@@@@@@@@@''''    .....
+                                             ....'''.'.</pre>
+    </section>
+
+    <div class="divider container" aria-hidden="true"></div>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section container">
+      <h2 class="section__title">about_me.md</h2>
+
+      <div class="about-grid">
+        <article class="card card--wide">
+          <h3 class="card__label">[ BACK-END ]</h3>
+          <p data-i18n-html="about.backend">Building <strong>RESTful APIs</strong> with <strong>Java</strong>, <strong>Spring Boot</strong> and <strong>Spring MVC</strong>, and with <strong>Node.js</strong>. Applying <strong>object-oriented programming (OOP)</strong> and <strong>design patterns</strong>, with code organized in a <strong>layered architecture</strong> (controllers, services, data access). Implementing authentication and authorization with <strong>Spring Security</strong>, input validation and consistent HTTP responses and error handling. Working with <strong>MySQL</strong> and <strong>SQL</strong> for data persistence: table design, queries and integration with the application. Building <strong>microservices</strong> with <strong>Spring Cloud</strong> (API Gateway, Load Balancer, Circuit Breaker), asynchronous messaging with <strong>RabbitMQ</strong>, security with <strong>OAuth 2.0</strong> / OpenID Connect on <strong>Keycloak</strong>, <strong>NoSQL</strong> databases with <strong>MongoDB</strong> and services in <strong>Go</strong>.</p>
+        </article>
+
+        <article class="card">
+          <h3 class="card__label">[ FRONT-END ]</h3>
+          <p data-i18n-html="about.frontend">Building interfaces with <strong>JavaScript</strong>, <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>React</strong>: responsive design, form validation, CRUD applications and <strong>third-party API integration</strong>. Working from designs and prototypes in <strong>Figma</strong>, and using Miro for diagrams and planning.</p>
+        </article>
+
+        <article class="card">
+          <h3 class="card__label" data-i18n="about.practicesLabel">[ WORKFLOW ]</h3>
+          <p data-i18n-html="about.practices">Version control with <strong>Git</strong> and <strong>GitHub</strong>: feature branches and small, descriptive commits. Working under <strong>Agile / Scrum</strong> (sprints, dailies, retrospectives), organizing tasks in <strong>Trello</strong> and communicating through <strong>Slack</strong>. Testing endpoints with <strong>Postman</strong> and writing <strong>automated API tests</strong> with <strong>RestAssured</strong>. Applying <strong>DevOps</strong> and <strong>cloud computing</strong> on <strong>AWS</strong>: deployments on <strong>Kubernetes</strong> with <strong>GitOps</strong> (Argo CD) and <strong>CI/CD</strong> pipelines with <strong>Jenkins</strong>.</p>
+        </article>
+
+        <article class="card card--wide card--invert">
+          <h3 class="card__label" data-i18n="about.educationLabel">[ EDUCATION ]</h3>
+          <p data-i18n-html="about.education">Courses at <strong>Digital House</strong>:<span class="edu-item"><strong>Professional Developer</strong>: Java and OOP, Spring Boot, Spring Security, MySQL, AWS and software testing.</span><span class="edu-item"><strong>Back-End Developer</strong>: microservices with Spring Cloud, security with OAuth 2.0 / OpenID Connect, MongoDB / NoSQL, Kubernetes and test automation.</span><span class="edu-item"><strong>EF SET English Certificate</strong>: <strong>C2 Proficient</strong> (74/100), 2025. <a class="edu-link" href="https://cert.efset.org/es/pVyabd" target="_blank" rel="noopener">[verify]</a></span><span class="edu-item edu-item--next"><strong>Associate Degree in Programming</strong> (Tecnicatura Universitaria en Programación) at <strong>UTN</strong> (Universidad Tecnológica Nacional), starting soon. Two-year degree: programming, <strong>databases</strong>, operating systems, systems methodology and <strong>software development management</strong>.</span></p>
+        </article>
+      </div>
+
+      <p class="now"><span class="now__status" data-i18n="about.status">[ RUNNING ]</span> <span data-i18n="about.now">Building back-end projects with Java, Spring Boot and microservices, focused on API design, security, data modeling and scalability.</span></p>
+
+      <div class="stack-groups" id="stack" aria-label="Tech stack"></div>
+
+      <p class="sub-label sub-label--spaced">$ cat hobbies.txt</p>
+      <p class="hobbies" data-i18n-html="about.hobbies">Off the clock: <strong>story-driven games</strong> (Night in the Woods, Life is Strange) and <strong>psychological horror</strong> (Silent Hill), plus the odd Resident Evil, Devil May Cry or Dark Souls run. Music from <strong>metal</strong> (Gojira, Nine Inch Nails) to <strong>trip-hop</strong> (Portishead, Massive Attack) and <strong>indie</strong> (The Cure, Sonic Youth). On <strong>film</strong>: Lynch, Ghost World, Jacob's Ladder, Fallen Angels or Empire Records. And <strong>design</strong> as a hobby: personal pieces, this site included.</p>
+    </section>
+
+    <div class="divider container" aria-hidden="true"></div>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section container">
+      <h2 class="section__title">projects.json</h2>
+      <div class="projects" id="projects-list"></div>
+    </section>
+
+    <div class="divider container" aria-hidden="true"></div>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section container contact">
+      <h2 class="section__title">contact.sh</h2>
+      <div class="contact__links">
+        <a class="btn btn--contact" href="mailto:bautistaquereda@gmail.com" aria-label="Email: bautistaquereda@gmail.com">
+          <svg viewBox="0 0 16 16" shape-rendering="crispEdges" aria-hidden="true"><path d="M0 2h16v12H0zM2 4v8h12V4l-6 4zM3 4h10L8 7z" fill-rule="evenodd"/></svg>
+          <span>bautistaquereda@gmail.com</span>
+        </a>
+        <a class="btn btn--contact" href="https://github.com/bautistaquereda" target="_blank" rel="me noopener" aria-label="GitHub: bautistaquereda">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          <span>bautistaquereda</span>
+        </a>
+        <a class="btn btn--contact" href="https://www.linkedin.com/in/bautistaquereda/" target="_blank" rel="me noopener" aria-label="LinkedIn: bautistaquereda">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <span>bautistaquereda</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <pre aria-hidden="true">+------------------------------------------+</pre>
+    <p class="footer__egg"><span data-i18n="snake.hint">psst… ↑↑↓↓←→←→BA or</span> <button type="button" class="footer__snake" id="snake-open">$ ./snake.sh</button></p>
+    <p>(c) <span id="year">2026</span> Bautista Quereda :: <span data-i18n="footer.built">built with HTML, CSS &amp; JavaScript</span> :: EOF</p>
+  </footer>
+
+  <!-- ============ SNAKE ============ -->
+  <div class="snake" id="snake" hidden>
+    <div class="snake__win" role="dialog" aria-modal="true" aria-label="Snake">
+      <div class="term__bar">
+        <span>snake.exe</span>
+        <button type="button" class="term__rerun" id="snake-close" aria-label="Close">[x]</button>
+      </div>
+      <div class="snake__hud"><span id="snake-score"></span><span id="snake-best"></span></div>
+      <pre class="snake__board" id="snake-board"></pre>
+      <p class="snake__msg" id="snake-msg"></p>
+      <div class="snake__pad" aria-hidden="true">
+        <button type="button" data-dir="up">[&uarr;]</button>
+        <button type="button" data-dir="left">[&larr;]</button>
+        <button type="button" data-dir="action">[ok]</button>
+        <button type="button" data-dir="right">[&rarr;]</button>
+        <button type="button" data-dir="down">[&darr;]</button>
+      </div>
+      <p class="snake__help" data-i18n="snake.help">arrows / WASD: move · space: start / pause · esc: exit</p>
+    </div>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+  <script src="avatar.js"></script>
+  <script src="snake.js"></script>
+</body>
+</html>
