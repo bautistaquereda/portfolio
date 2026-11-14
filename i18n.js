@@ -7,7 +7,7 @@
 
 const I18N = {
   en: {
-    "meta.title": "Bautista Quereda | Back-end Developer · Java, Spring Boot",
+    "meta.title": "Bautista Quereda | Back-end Developer",
     "meta.description": "Bautista Quereda, Back-end (backend) Developer in Buenos Aires, Argentina. REST APIs and microservices with Java, Spring Boot and Node.js. English C2.",
 
     "nav.about": "[about]",
@@ -73,7 +73,7 @@ const I18N = {
   },
 
   es: {
-    "meta.title": "Bautista Quereda | Desarrollador Back-end · Java, Spring Boot",
+    "meta.title": "Bautista Quereda | Desarrollador Back-end",
     "meta.description": "Bautista Quereda, desarrollador back-end (backend) en Buenos Aires, Argentina. APIs REST y microservicios con Java, Spring Boot y Node.js. Inglés C2.",
 
     "nav.about": "[sobre_mí]",
