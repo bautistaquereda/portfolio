@@ -62,8 +62,8 @@ const I18N = {
       '<span class="edu-item"><strong>EF SET English Certificate</strong>: <strong>C2 Proficient</strong> (74/100), 2025. <a class="edu-link" href="https://cert.efset.org/es/pVyabd" target="_blank" rel="noopener">[verify]</a></span>' +
       '<span class="edu-item edu-item--next"><strong>Associate Degree in Programming</strong> (Tecnicatura Universitaria en Programación) at <strong>UTN</strong> (Universidad Tecnológica Nacional), starting soon. Two-year degree: programming, <strong>databases</strong>, operating systems, systems methodology and <strong>software development management</strong>.</span>',
     "about.hobbies":
-      "Off the clock: <strong>story-driven games</strong> (Night in the Woods, Life is Strange) and <strong>psychological horror</strong> (Silent Hill), plus the odd Resident Evil, Devil May Cry or Dark Souls run. Music from <strong>metal</strong> (Gojira, Nine Inch Nails) to <strong>trip-hop</strong> (Portishead, Massive Attack) and <strong>indie</strong> (The Cure, Sonic Youth). On <strong>film</strong>: Lynch, Ghost World, Jacob's Ladder, Fallen Angels or Empire Records. And <strong>design</strong> as a hobby: personal pieces, this site included.",
-    "about.status": "[ RUNNING ]",
+      "Off the clock: <strong>story-driven games</strong> (Night in the Woods, Life is Strange) and <strong>psychological horror</strong> (Silent Hill), plus the occasional Resident Evil, Devil May Cry or Dark Souls run. Music from <strong>metal</strong> (Gojira, Nine Inch Nails) to <strong>trip-hop</strong> (Portishead, Massive Attack) and <strong>indie</strong> (The Cure, Sonic Youth). On <strong>film</strong>: Lynch, Ghost World, Jacob's Ladder, Fallen Angels or Empire Records. And <strong>designer</strong> as a hobby: personal pieces, this site included.",
+    "about.status": "[ ONGOING ]",
     "about.now": "Building back-end projects with Java, Spring Boot and microservices, focused on API design, security, data modeling and scalability.",
 
     "projects.code": "Code",
@@ -81,7 +81,7 @@ const I18N = {
     "nav.contact": "[contacto]",
 
     "hero.role":
-      '&gt; Desarrollador Back-end <span>· Desarrollando APIs REST y microservicios con Java, Spring Boot y Node.js.</span>',
+      '&gt; Desarrollador Back-end <span>· Creando APIs REST y microservicios con Java, Spring Boot y Node.js.</span>',
 
     "hero.meta": "Buenos Aires, Argentina · {age} años · Inglés C2",
     "hero.cvTitleEn": "Descargar CV en inglés (PDF)",
@@ -101,8 +101,8 @@ const I18N = {
     "about.backend":
       
       
-      "Desarrollando <strong>APIs RESTful</strong> con <strong>Java</strong>, <strong>Spring Boot</strong> y <strong>Spring MVC</strong>, y con <strong>Node.js</strong>. " +
-      "Aplicando <strong>programación orientada a objetos (POO)</strong> y <strong>patrones de diseño</strong>, con el código organizado en una <strong>arquitectura en capas</strong> (controladores, servicios y acceso a datos). " +
+      "Desarrollando <strong>APIs RESTful</strong> con <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Spring MVC</strong> y <strong>Node.js</strong>. " +
+      "Aplicando <strong>programación orientada a objetos (POO)</strong> y <strong>patrones de diseño</strong>, con código organizado en <strong>arquitectura de capas</strong> (controladores, servicios y acceso a datos). " +
       "Implementando autenticación y autorización con <strong>Spring Security</strong>, validación de datos de entrada y manejo consistente de respuestas HTTP y errores. " +
       "Trabajando con <strong>MySQL</strong> y <strong>SQL</strong> para la persistencia de datos: diseño de tablas, consultas e integración con la aplicación. " +
       "Desarrollando <strong>microservicios</strong> con <strong>Spring Cloud</strong> (API Gateway, Load Balancer, Circuit Breaker), mensajería asincrónica con <strong>RabbitMQ</strong>, seguridad con <strong>OAuth 2.0</strong> / OpenID Connect en <strong>Keycloak</strong>, bases de datos <strong>NoSQL</strong> con <strong>MongoDB</strong> y servicios en <strong>Go</strong>.",
@@ -128,7 +128,7 @@ const I18N = {
       '<span class="edu-item"><strong>Certificado de inglés EF SET</strong>: <strong>C2 Proficiente</strong> (74/100), 2025. <a class="edu-link" href="https://cert.efset.org/es/pVyabd" target="_blank" rel="noopener">[verificar]</a></span>' +
       '<span class="edu-item edu-item--next"><strong>Tecnicatura Universitaria en Programación</strong> en la <strong>UTN</strong> (Universidad Tecnológica Nacional), por comenzar. Carrera de 2 años: programación, <strong>bases de datos</strong>, sistemas operativos, metodología de sistemas y <strong>gestión de desarrollo de software</strong>.</span>',
     "about.hobbies":
-      "Fuera del código: <strong>juegos con historias que atrapan</strong> (Night in the Woods, Life is Strange) y <strong>terror psicológico</strong> (Silent Hill), sin olvidarme de Resident Evil, Devil May Cry o Dark Souls. Música entre el <strong>metal</strong> (Gojira, Nine Inch Nails), el <strong>trip-hop</strong> (Portishead, Massive Attack) y el <strong>indie</strong> (The Cure, Sonic Youth). En <strong>cine</strong>: Lynch, Ghost World, Jacob's Ladder, Fallen Angels o Empire Records. Y <strong>diseño</strong> por hobby: piezas personales, esta página incluida.",
+      "Fuera del código: <strong>juegos con historias que atrapan</strong> (Night in the Woods, Life is Strange) y <strong>terror psicológico</strong> (Silent Hill), sin olvidarme de Resident Evil, Devil May Cry o Dark Souls. Música entre el <strong>metal</strong> (Gojira, Nine Inch Nails), el <strong>trip-hop</strong> (Portishead, Massive Attack) y el <strong>indie</strong> (The Cure, Sonic Youth). En <strong>cine</strong>: Lynch, Ghost World, Jacob's Ladder, Fallen Angels o Empire Records. Y <strong>diseñador</strong> por hobby: piezas personales, esta página incluida.",
     "about.status": "[ EN_CURSO ]",
     "about.now": "Desarrollando proyectos back-end con Java, Spring Boot y microservicios, enfocados en diseño de APIs, seguridad, modelado de datos y escalabilidad.",
 
