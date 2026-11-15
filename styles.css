@@ -290,6 +290,7 @@ a { color: inherit; text-decoration: none; }
 /* CV buttons: same color as the page (black at night, white by day); invert only on hover/focus */
 .btn--cv { background: var(--bg); color: var(--fg); }
 .btn--cv:hover, .btn--cv:focus-visible { background: var(--fg); color: var(--bg); }
+.btn__icon { display: inline-block; width: 16px; height: 16px; margin-right: 8px; vertical-align: -3px; fill: currentColor; }
 
 /* =========================================================
    TERMINAL WINDOW BAR (snake.exe)
