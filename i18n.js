@@ -66,6 +66,9 @@ const I18N = {
     "about.status": "[ ONGOING ]",
     "about.now": "Building back-end projects with Java, Spring Boot and microservices, focused on API design, security, data modeling and scalability.",
 
+    "wip.bar": "building...",
+    "wip.text": "This section is under construction. Building back-end projects with Java, Spring Boot and microservices; they'll show up here soon.",
+    "wip.meanwhile": "Meanwhile:",
     "projects.code": "Code",
     "projects.demo": "Live demo",
 
@@ -132,6 +135,9 @@ const I18N = {
     "about.status": "[ EN_CURSO ]",
     "about.now": "Desarrollando proyectos back-end con Java, Spring Boot y microservicios, enfocados en diseño de APIs, seguridad, modelado de datos y escalabilidad.",
 
+    "wip.bar": "compilando...",
+    "wip.text": "Esta sección está en construcción. Desarrollando proyectos back-end con Java, Spring Boot y microservicios; pronto van a estar acá.",
+    "wip.meanwhile": "Mientras tanto:",
     "projects.code": "Código",
     "projects.demo": "Demo",
 

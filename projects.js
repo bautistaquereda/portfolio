@@ -12,41 +12,44 @@
      repo / demo  → links opcionales (dejalos en "" si no tenés)
    ===================================================================== */
 
-const PROJECTS = [
-  {
-    name: "Inventory API",
-    logo: "",
-    description: {
-      en: "RESTful API for managing products, stock and orders. Layered architecture with DTOs, validation and global error handling.",
-      es: "API RESTful para gestionar productos, stock y pedidos. Arquitectura en capas con DTOs, validaciones y manejo global de errores.",
-    },
-    technologies: ["Java", "Spring Boot", "MySQL", "Git"],
-    repo: "https://github.com/bautistaquereda",
-    demo: "",
-  },
-  {
-    name: "Task Manager",
-    logo: "",
-    description: {
-      en: "Full-stack task management app with JWT authentication, a Node.js/Express back-end and a responsive React front-end.",
-      es: "Aplicación full-stack de gestión de tareas con autenticación JWT, back-end en Node.js/Express y front-end responsivo en React.",
-    },
-    technologies: ["Node.js", "Express", "React", "MySQL"],
-    repo: "https://github.com/bautistaquereda",
-    demo: "",
-  },
-  {
-    name: "Cloud Deploy Demo",
-    logo: "",
-    description: {
-      en: "Spring Boot service deployed on AWS, exploring cloud infrastructure, environment configuration and CI basics.",
-      es: "Servicio en Spring Boot desplegado en AWS, explorando infraestructura cloud, configuración de entornos y nociones de CI.",
-    },
-    technologies: ["Java", "Spring Boot", "AWS", "Docker"],
-    repo: "",
-    demo: "",
-  },
-];
+/* Mientras esté vacía, la sección muestra el bloque "WORK IN PROGRESS".
+   Cuando tengas proyectos, agregalos acá y aparecen solos como tarjetas.
+   Ejemplo de formato:
+     {
+       name: "Inventory API",
+       logo: "",
+       description: {
+         en: "RESTful API for managing products, stock and orders. Layered architecture with DTOs, validation and global error handling.",
+         es: "API RESTful para gestionar productos, stock y pedidos. Arquitectura en capas con DTOs, validaciones y manejo global de errores.",
+       },
+       technologies: ["Java", "Spring Boot", "MySQL", "Git"],
+       repo: "https://github.com/bautistaquereda",
+       demo: "",
+     },
+     {
+       name: "Task Manager",
+       logo: "",
+       description: {
+         en: "Full-stack task management app with JWT authentication, a Node.js/Express back-end and a responsive React front-end.",
+         es: "Aplicación full-stack de gestión de tareas con autenticación JWT, back-end en Node.js/Express y front-end responsivo en React.",
+       },
+       technologies: ["Node.js", "Express", "React", "MySQL"],
+       repo: "https://github.com/bautistaquereda",
+       demo: "",
+     },
+     {
+       name: "Cloud Deploy Demo",
+       logo: "",
+       description: {
+         en: "Spring Boot service deployed on AWS, exploring cloud infrastructure, environment configuration and CI basics.",
+         es: "Servicio en Spring Boot desplegado en AWS, explorando infraestructura cloud, configuración de entornos y nociones de CI.",
+       },
+       technologies: ["Java", "Spring Boot", "AWS", "Docker"],
+       repo: "",
+       demo: "",
+     },
+*/
+const PROJECTS = [];
 
 /* ---------------------------------------------------------------------
    Íconos de tecnologías (Devicon). Para agregar una nueva, buscala en

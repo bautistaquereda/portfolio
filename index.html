@@ -289,7 +289,21 @@
     <!-- ============ PROJECTS ============ -->
     <section id="projects" class="section container">
       <h2 class="section__title">projects.json</h2>
-      <div class="projects" id="projects-list"></div>
+      <div class="projects" id="projects-list" hidden></div>
+
+      <!-- Shown while PROJECTS (projects.js) is empty -->
+      <div class="wip" id="projects-wip">
+        <div class="term__bar"><span>projects.exe</span><span>[-][x]</span></div>
+        <div class="wip__tape" aria-hidden="true"></div>
+        <div class="wip__body">
+          <p class="prompt">$ ./build.sh --all</p>
+          <p class="wip__title">WORK IN PROGRESS</p>
+          <p class="wip__bar" aria-hidden="true"><span id="wip-bar">[■■■■□□□□□□]</span> <span data-i18n="wip.bar">building...</span><span class="cursor">_</span></p>
+          <p class="wip__text" data-i18n="wip.text">This section is under construction. Building back-end projects with Java, Spring Boot and microservices; they'll show up here soon.</p>
+          <p class="wip__text"><span data-i18n="wip.meanwhile">Meanwhile:</span> <a class="wip__link" href="https://github.com/bautistaquereda" target="_blank" rel="me noopener">github.com/bautistaquereda</a></p>
+        </div>
+        <div class="wip__tape" aria-hidden="true"></div>
+      </div>
     </section>
 
     <div class="divider container" aria-hidden="true"></div>

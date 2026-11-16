@@ -256,6 +256,25 @@ a { color: inherit; text-decoration: none; }
 .project__links a { font-size: 0.85rem; font-weight: 700; padding: 0 4px; }
 .project__links a:hover { background: var(--fg); color: var(--bg); }
 
+/* ---------- Projects: work in progress ---------- */
+.wip { border: 2px solid var(--line); box-shadow: 8px 8px 0 var(--shadow); }
+.wip[hidden], .projects[hidden] { display: none; }
+.wip__tape {
+  height: 14px;
+  background: repeating-linear-gradient(-45deg, var(--fg) 0 10px, var(--bg) 10px 20px);
+  border-top: 2px solid var(--line); border-bottom: 2px solid var(--line);
+}
+.wip__body { display: grid; gap: 12px; padding: 28px 24px; }
+.wip__body .prompt { margin: 0; }
+.wip__title {
+  font-family: "Jersey 15", var(--pixel); font-size: clamp(2.6rem, 8vw, 4.6rem);
+  line-height: 0.9; letter-spacing: 0.02em; text-shadow: 4px 4px 0 var(--shadow);
+}
+.wip__bar { font-family: var(--mono); font-size: 1rem; }
+.wip__text { max-width: 760px; color: var(--dim); font-family: var(--text); font-size: 1.4rem; line-height: 1.3; }
+.wip__link { color: var(--fg); border-bottom: 1px dashed var(--dim); }
+.wip__link:hover { background: var(--fg); color: var(--bg); }
+
 /* ---------- Contact / Footer ---------- */
 .contact p { color: var(--dim); }
 .contact__links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 28px; }

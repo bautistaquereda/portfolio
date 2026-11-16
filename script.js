@@ -128,6 +128,8 @@ function applyLang() {
   document.dispatchEvent(new CustomEvent("langchange", { detail: lang }));
   const list = document.getElementById("projects-list");
   list.replaceChildren(...PROJECTS.map(projectCard));
+  list.hidden = PROJECTS.length === 0;
+  document.getElementById("projects-wip").hidden = PROJECTS.length > 0;
   markActive(langToggle, lang);
   langToggle.title = lang === "en" ? "Cambiar a español" : "Switch to English";
 }
@@ -182,6 +184,17 @@ function updateClock() {
     t("hero.clockBehind").replace("{h}", hours);
   document.getElementById("clock-diff").textContent = " · " + diffText;
 }
+
+/* ---------- WIP progress bar: fills up and starts over ---------- */
+(function animateWipBar() {
+  const bar = document.getElementById("wip-bar");
+  if (!bar || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  let n = 4;
+  setInterval(() => {
+    n = (n + 1) % 11;
+    bar.textContent = "[" + "■".repeat(n) + "□".repeat(10 - n) + "]";
+  }, 380);
+})();
 
 /* ---------- Init ---------- */
 document.getElementById("stack").append(
