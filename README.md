@@ -19,7 +19,7 @@
 |---|---|
 | **Retro terminal UI** | Black & white CRT look: pixel fonts (Jersey 15, VT323, Space Mono), scanlines, `[ bracket ]` labels and shell-style section titles. |
 | **Day / night mode** | Follows the system theme by default, remembers the visitor's choice and applies it before the first paint (no flash). |
-| **EN / ES** | Every text lives in `i18n.js`. The Spanish version has its own URL (`/?lang=es`) with `hreflang` tags. |
+| **EN / ES** | Every text lives in `i18n.js`. The Spanish version has its own URL (`/es/`) with `hreflang` tags, generated with `node tools/build-es.js` (run it after editing `index.html` or `i18n.js`). |
 | **Animated ASCII portrait** | Redraws itself on load and blinks every few seconds. Respects `prefers-reduced-motion`. |
 | **Live local clock** | Shows my time in Buenos Aires (UTC−3) and how many hours apart the visitor is. |
 | **Data-driven content** | Projects and tech stack are rendered from a single file (`projects.js`), with Devicon icons. |

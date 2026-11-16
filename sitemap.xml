@@ -3,16 +3,16 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bautistaquereda.dev/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://bautistaquereda.dev/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://bautistaquereda.dev/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://bautistaquereda.dev/es/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bautistaquereda.dev/" />
   </url>
   <url>
-    <loc>https://bautistaquereda.dev/?lang=es</loc>
-    <lastmod>2026-11-14</lastmod>
+    <loc>https://bautistaquereda.dev/es/</loc>
+    <lastmod>2026-11-15</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://bautistaquereda.dev/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://bautistaquereda.dev/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://bautistaquereda.dev/es/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bautistaquereda.dev/" />
   </url>
 </urlset>

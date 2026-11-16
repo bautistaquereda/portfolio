@@ -137,12 +137,8 @@ function applyLang() {
 langToggle.addEventListener("click", () => {
   lang = lang === "en" ? "es" : "en";
   save("lang", lang);
-  // shareable URL: /?lang=es for Spanish, clean URL for English
-  const url = new URL(location.href);
-  if (lang === "es") url.searchParams.set("lang", "es");
-  else url.searchParams.delete("lang");
-  history.replaceState(null, "", url);
-  applyLang();
+  // each language has its own URL (better for Google): / and /es/
+  location.href = (lang === "es" ? "/es/" : "/") + location.hash;
 });
 
 /* ---------- Day / night ---------- */
